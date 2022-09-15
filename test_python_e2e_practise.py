@@ -58,3 +58,5 @@ class Testcase1(BaseClass):
         log.info("Test received from application is "+message)
 
         assert "Thank you!" in message
+
+        # Assert is exception handler, test is present in input then it passes otherwise it shows error
