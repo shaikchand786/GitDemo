@@ -47,6 +47,8 @@ class TestHomePage(BaseClass):
         assert ("Success" in message)
         self.driver.refresh()
 
+        #Success message will be print if test case will pass!
+
     #How to run "test_formSubmission" testcase in multiple data base in the form of Tuples '()' & Dictionary '{ : }'
     #       In test case, we have to give 'getData[index_value]' to get data from tuple_lists.
     #@pytest.fixture(params=[("chand", "chandshaik321@gmail.com", "143143786", "Male", "inlineRadio2"), ("nazira", "shaiknazira4@gmail.com", "143143143", "Female", "inlineRadio2")])
